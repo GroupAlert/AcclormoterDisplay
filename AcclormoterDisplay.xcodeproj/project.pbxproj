@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		700B1CB12416C5BA00A82A74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700B1CB02416C5BA00A82A74 /* AppDelegate.swift */; };
+		700B1CB32416C5BA00A82A74 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700B1CB22416C5BA00A82A74 /* SceneDelegate.swift */; };
+		700B1CB52416C5BA00A82A74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700B1CB42416C5BA00A82A74 /* ViewController.swift */; };
+		700B1CB82416C5BA00A82A74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 700B1CB62416C5BA00A82A74 /* Main.storyboard */; };
+		700B1CBA2416C5BC00A82A74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 700B1CB92416C5BC00A82A74 /* Assets.xcassets */; };
+		700B1CBD2416C5BC00A82A74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 700B1CBB2416C5BC00A82A74 /* LaunchScreen.storyboard */; };
+		700B1CC82416C5BC00A82A74 /* AcclormoterDisplayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700B1CC72416C5BC00A82A74 /* AcclormoterDisplayTests.swift */; };
+		700B1CD32416C5BC00A82A74 /* AcclormoterDisplayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700B1CD22416C5BC00A82A74 /* AcclormoterDisplayUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		700B1CC42416C5BC00A82A74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 700B1CA52416C5BA00A82A74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 700B1CAC2416C5BA00A82A74;
+			remoteInfo = AcclormoterDisplay;
+		};
+		700B1CCF2416C5BC00A82A74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 700B1CA52416C5BA00A82A74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 700B1CAC2416C5BA00A82A74;
+			remoteInfo = AcclormoterDisplay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		700B1CAD2416C5BA00A82A74 /* AcclormoterDisplay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AcclormoterDisplay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		700B1CB02416C5BA00A82A74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		700B1CB22416C5BA00A82A74 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		700B1CB42416C5BA00A82A74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		700B1CB72416C5BA00A82A74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		700B1CB92416C5BC00A82A74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		700B1CBC2416C5BC00A82A74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		700B1CBE2416C5BC00A82A74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		700B1CC32416C5BC00A82A74 /* AcclormoterDisplayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AcclormoterDisplayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		700B1CC72416C5BC00A82A74 /* AcclormoterDisplayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcclormoterDisplayTests.swift; sourceTree = "<group>"; };
+		700B1CC92416C5BC00A82A74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		700B1CCE2416C5BC00A82A74 /* AcclormoterDisplayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AcclormoterDisplayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		700B1CD22416C5BC00A82A74 /* AcclormoterDisplayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcclormoterDisplayUITests.swift; sourceTree = "<group>"; };
+		700B1CD42416C5BC00A82A74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		700B1CAA2416C5BA00A82A74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		700B1CC02416C5BC00A82A74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		700B1CCB2416C5BC00A82A74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		700B1CA42416C5BA00A82A74 = {
+			isa = PBXGroup;
+			children = (
+				700B1CAF2416C5BA00A82A74 /* AcclormoterDisplay */,
+				700B1CC62416C5BC00A82A74 /* AcclormoterDisplayTests */,
+				700B1CD12416C5BC00A82A74 /* AcclormoterDisplayUITests */,
+				700B1CAE2416C5BA00A82A74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		700B1CAE2416C5BA00A82A74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				700B1CAD2416C5BA00A82A74 /* AcclormoterDisplay.app */,
+				700B1CC32416C5BC00A82A74 /* AcclormoterDisplayTests.xctest */,
+				700B1CCE2416C5BC00A82A74 /* AcclormoterDisplayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		700B1CAF2416C5BA00A82A74 /* AcclormoterDisplay */ = {
+			isa = PBXGroup;
+			children = (
+				700B1CB02416C5BA00A82A74 /* AppDelegate.swift */,
+				700B1CB22416C5BA00A82A74 /* SceneDelegate.swift */,
+				700B1CB42416C5BA00A82A74 /* ViewController.swift */,
+				700B1CB62416C5BA00A82A74 /* Main.storyboard */,
+				700B1CB92416C5BC00A82A74 /* Assets.xcassets */,
+				700B1CBB2416C5BC00A82A74 /* LaunchScreen.storyboard */,
+				700B1CBE2416C5BC00A82A74 /* Info.plist */,
+			);
+			path = AcclormoterDisplay;
+			sourceTree = "<group>";
+		};
+		700B1CC62416C5BC00A82A74 /* AcclormoterDisplayTests */ = {
+			isa = PBXGroup;
+			children = (
+				700B1CC72416C5BC00A82A74 /* AcclormoterDisplayTests.swift */,
+				700B1CC92416C5BC00A82A74 /* Info.plist */,
+			);
+			path = AcclormoterDisplayTests;
+			sourceTree = "<group>";
+		};
+		700B1CD12416C5BC00A82A74 /* AcclormoterDisplayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				700B1CD22416C5BC00A82A74 /* AcclormoterDisplayUITests.swift */,
+				700B1CD42416C5BC00A82A74 /* Info.plist */,
+			);
+			path = AcclormoterDisplayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		700B1CAC2416C5BA00A82A74 /* AcclormoterDisplay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 700B1CD72416C5BC00A82A74 /* Build configuration list for PBXNativeTarget "AcclormoterDisplay" */;
+			buildPhases = (
+				700B1CA92416C5BA00A82A74 /* Sources */,
+				700B1CAA2416C5BA00A82A74 /* Frameworks */,
+				700B1CAB2416C5BA00A82A74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AcclormoterDisplay;
+			productName = AcclormoterDisplay;
+			productReference = 700B1CAD2416C5BA00A82A74 /* AcclormoterDisplay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		700B1CC22416C5BC00A82A74 /* AcclormoterDisplayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 700B1CDA2416C5BC00A82A74 /* Build configuration list for PBXNativeTarget "AcclormoterDisplayTests" */;
+			buildPhases = (
+				700B1CBF2416C5BC00A82A74 /* Sources */,
+				700B1CC02416C5BC00A82A74 /* Frameworks */,
+				700B1CC12416C5BC00A82A74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				700B1CC52416C5BC00A82A74 /* PBXTargetDependency */,
+			);
+			name = AcclormoterDisplayTests;
+			productName = AcclormoterDisplayTests;
+			productReference = 700B1CC32416C5BC00A82A74 /* AcclormoterDisplayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		700B1CCD2416C5BC00A82A74 /* AcclormoterDisplayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 700B1CDD2416C5BC00A82A74 /* Build configuration list for PBXNativeTarget "AcclormoterDisplayUITests" */;
+			buildPhases = (
+				700B1CCA2416C5BC00A82A74 /* Sources */,
+				700B1CCB2416C5BC00A82A74 /* Frameworks */,
+				700B1CCC2416C5BC00A82A74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				700B1CD02416C5BC00A82A74 /* PBXTargetDependency */,
+			);
+			name = AcclormoterDisplayUITests;
+			productName = AcclormoterDisplayUITests;
+			productReference = 700B1CCE2416C5BC00A82A74 /* AcclormoterDisplayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		700B1CA52416C5BA00A82A74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = GroupAlert;
+				TargetAttributes = {
+					700B1CAC2416C5BA00A82A74 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					700B1CC22416C5BC00A82A74 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 700B1CAC2416C5BA00A82A74;
+					};
+					700B1CCD2416C5BC00A82A74 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 700B1CAC2416C5BA00A82A74;
+					};
+				};
+			};
+			buildConfigurationList = 700B1CA82416C5BA00A82A74 /* Build configuration list for PBXProject "AcclormoterDisplay" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 700B1CA42416C5BA00A82A74;
+			productRefGroup = 700B1CAE2416C5BA00A82A74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				700B1CAC2416C5BA00A82A74 /* AcclormoterDisplay */,
+				700B1CC22416C5BC00A82A74 /* AcclormoterDisplayTests */,
+				700B1CCD2416C5BC00A82A74 /* AcclormoterDisplayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		700B1CAB2416C5BA00A82A74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				700B1CBD2416C5BC00A82A74 /* LaunchScreen.storyboard in Resources */,
+				700B1CBA2416C5BC00A82A74 /* Assets.xcassets in Resources */,
+				700B1CB82416C5BA00A82A74 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		700B1CC12416C5BC00A82A74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		700B1CCC2416C5BC00A82A74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		700B1CA92416C5BA00A82A74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				700B1CB52416C5BA00A82A74 /* ViewController.swift in Sources */,
+				700B1CB12416C5BA00A82A74 /* AppDelegate.swift in Sources */,
+				700B1CB32416C5BA00A82A74 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		700B1CBF2416C5BC00A82A74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				700B1CC82416C5BC00A82A74 /* AcclormoterDisplayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		700B1CCA2416C5BC00A82A74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				700B1CD32416C5BC00A82A74 /* AcclormoterDisplayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		700B1CC52416C5BC00A82A74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 700B1CAC2416C5BA00A82A74 /* AcclormoterDisplay */;
+			targetProxy = 700B1CC42416C5BC00A82A74 /* PBXContainerItemProxy */;
+		};
+		700B1CD02416C5BC00A82A74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 700B1CAC2416C5BA00A82A74 /* AcclormoterDisplay */;
+			targetProxy = 700B1CCF2416C5BC00A82A74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		700B1CB62416C5BA00A82A74 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				700B1CB72416C5BA00A82A74 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		700B1CBB2416C5BC00A82A74 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				700B1CBC2416C5BC00A82A74 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		700B1CD52416C5BC00A82A74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		700B1CD62416C5BC00A82A74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		700B1CD82416C5BC00A82A74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N2WKMJD783;
+				INFOPLIST_FILE = AcclormoterDisplay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GroupAlert.AcclormoterDisplay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		700B1CD92416C5BC00A82A74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N2WKMJD783;
+				INFOPLIST_FILE = AcclormoterDisplay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GroupAlert.AcclormoterDisplay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		700B1CDB2416C5BC00A82A74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N2WKMJD783;
+				INFOPLIST_FILE = AcclormoterDisplayTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GroupAlert.AcclormoterDisplayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AcclormoterDisplay.app/AcclormoterDisplay";
+			};
+			name = Debug;
+		};
+		700B1CDC2416C5BC00A82A74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N2WKMJD783;
+				INFOPLIST_FILE = AcclormoterDisplayTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GroupAlert.AcclormoterDisplayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AcclormoterDisplay.app/AcclormoterDisplay";
+			};
+			name = Release;
+		};
+		700B1CDE2416C5BC00A82A74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N2WKMJD783;
+				INFOPLIST_FILE = AcclormoterDisplayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GroupAlert.AcclormoterDisplayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AcclormoterDisplay;
+			};
+			name = Debug;
+		};
+		700B1CDF2416C5BC00A82A74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N2WKMJD783;
+				INFOPLIST_FILE = AcclormoterDisplayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GroupAlert.AcclormoterDisplayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AcclormoterDisplay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		700B1CA82416C5BA00A82A74 /* Build configuration list for PBXProject "AcclormoterDisplay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				700B1CD52416C5BC00A82A74 /* Debug */,
+				700B1CD62416C5BC00A82A74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		700B1CD72416C5BC00A82A74 /* Build configuration list for PBXNativeTarget "AcclormoterDisplay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				700B1CD82416C5BC00A82A74 /* Debug */,
+				700B1CD92416C5BC00A82A74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		700B1CDA2416C5BC00A82A74 /* Build configuration list for PBXNativeTarget "AcclormoterDisplayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				700B1CDB2416C5BC00A82A74 /* Debug */,
+				700B1CDC2416C5BC00A82A74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		700B1CDD2416C5BC00A82A74 /* Build configuration list for PBXNativeTarget "AcclormoterDisplayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				700B1CDE2416C5BC00A82A74 /* Debug */,
+				700B1CDF2416C5BC00A82A74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 700B1CA52416C5BA00A82A74 /* Project object */;
+}
