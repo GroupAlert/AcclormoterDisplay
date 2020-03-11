@@ -41,7 +41,7 @@ class ViewController: UIViewController {
                 print(data as Any)
                 // Get the accelerometer data.
                 if let myData = self.motionManager.accelerometerData{
-                    //if let myData = data{
+                    
                     print("accloromiter Data: \(myData)")
                     let x = myData.acceleration.x
                     let y = myData.acceleration.y
@@ -51,6 +51,11 @@ class ViewController: UIViewController {
                     self.xValueField!.text = String(x)
                     self.yValField!.text = String(y)
                     self.zValField!.text = String(z)
+                    if myData.acceleration.x >= 5 || myData.acceleration.y >= 5 ||
+                        myData.acceleration.z >= 5{
+                        print("large acclrition" )
+                        
+                    }
                     
                     //self.stopDeviceMotionUpdates())
                     
