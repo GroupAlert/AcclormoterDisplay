@@ -10,7 +10,7 @@ import UIKit
 import CoreMotion
 import UserNotifications
 
-class ViewController: UIViewController {
+class GyroViewController: UIViewController {
     
     
     @IBOutlet weak var xValueField: UITextField!
@@ -93,9 +93,9 @@ class ViewController: UIViewController {
                 let yGyroData = data.rotationRate.y
                 let zGyroData = data.rotationRate.z
                 //print to device
-                self.xGyroField!.text = String(xGyroData)
-                self.yGyroField.text = String(yGyroData)
-                self.zGyroField!.text = String(zGyroData)
+                self.xGyroField!.text = String(xGyroData.rotationRate)
+                self.yGyroField.text = String(yGyroData.rotationRate)
+                self.zGyroField!.text = String(zGyroData.rotationRate)
                 //self.stopDeviceMotionUpdates())
             }
         }

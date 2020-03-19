@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		700B1CB12416C5BA00A82A74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700B1CB02416C5BA00A82A74 /* AppDelegate.swift */; };
 		700B1CB32416C5BA00A82A74 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700B1CB22416C5BA00A82A74 /* SceneDelegate.swift */; };
-		700B1CB52416C5BA00A82A74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700B1CB42416C5BA00A82A74 /* ViewController.swift */; };
+		700B1CB52416C5BA00A82A74 /* GyroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700B1CB42416C5BA00A82A74 /* GyroViewController.swift */; };
 		700B1CB82416C5BA00A82A74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 700B1CB62416C5BA00A82A74 /* Main.storyboard */; };
 		700B1CBA2416C5BC00A82A74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 700B1CB92416C5BC00A82A74 /* Assets.xcassets */; };
 		700B1CBD2416C5BC00A82A74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 700B1CBB2416C5BC00A82A74 /* LaunchScreen.storyboard */; };
 		700B1CC82416C5BC00A82A74 /* AcclormoterDisplayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700B1CC72416C5BC00A82A74 /* AcclormoterDisplayTests.swift */; };
 		700B1CD32416C5BC00A82A74 /* AcclormoterDisplayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700B1CD22416C5BC00A82A74 /* AcclormoterDisplayUITests.swift */; };
+		70A5A0A6242350D100FE6178 /* speedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A5A0A5242350D100FE6178 /* speedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,7 @@
 		700B1CAD2416C5BA00A82A74 /* AcclormoterDisplay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AcclormoterDisplay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		700B1CB02416C5BA00A82A74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		700B1CB22416C5BA00A82A74 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		700B1CB42416C5BA00A82A74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		700B1CB42416C5BA00A82A74 /* GyroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GyroViewController.swift; sourceTree = "<group>"; };
 		700B1CB72416C5BA00A82A74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		700B1CB92416C5BC00A82A74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		700B1CBC2416C5BC00A82A74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		700B1CCE2416C5BC00A82A74 /* AcclormoterDisplayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AcclormoterDisplayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		700B1CD22416C5BC00A82A74 /* AcclormoterDisplayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcclormoterDisplayUITests.swift; sourceTree = "<group>"; };
 		700B1CD42416C5BC00A82A74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70A5A0A5242350D100FE6178 /* speedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = speedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +103,9 @@
 			children = (
 				700B1CB02416C5BA00A82A74 /* AppDelegate.swift */,
 				700B1CB22416C5BA00A82A74 /* SceneDelegate.swift */,
-				700B1CB42416C5BA00A82A74 /* ViewController.swift */,
+				700B1CB42416C5BA00A82A74 /* GyroViewController.swift */,
 				700B1CB62416C5BA00A82A74 /* Main.storyboard */,
+				70A5A0A5242350D100FE6178 /* speedViewController.swift */,
 				700B1CB92416C5BC00A82A74 /* Assets.xcassets */,
 				700B1CBB2416C5BC00A82A74 /* LaunchScreen.storyboard */,
 				700B1CBE2416C5BC00A82A74 /* Info.plist */,
@@ -259,7 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				700B1CB52416C5BA00A82A74 /* ViewController.swift in Sources */,
+				70A5A0A6242350D100FE6178 /* speedViewController.swift in Sources */,
+				700B1CB52416C5BA00A82A74 /* GyroViewController.swift in Sources */,
 				700B1CB12416C5BA00A82A74 /* AppDelegate.swift in Sources */,
 				700B1CB32416C5BA00A82A74 /* SceneDelegate.swift in Sources */,
 			);
