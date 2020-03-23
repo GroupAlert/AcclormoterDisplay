@@ -16,6 +16,7 @@
 		700B1CC82416C5BC00A82A74 /* AcclormoterDisplayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700B1CC72416C5BC00A82A74 /* AcclormoterDisplayTests.swift */; };
 		700B1CD32416C5BC00A82A74 /* AcclormoterDisplayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700B1CD22416C5BC00A82A74 /* AcclormoterDisplayUITests.swift */; };
 		70A5A0A6242350D100FE6178 /* speedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A5A0A5242350D100FE6178 /* speedViewController.swift */; };
+		70F845C02427E03600970B79 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70F845BF2427E03600970B79 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		700B1CD22416C5BC00A82A74 /* AcclormoterDisplayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcclormoterDisplayUITests.swift; sourceTree = "<group>"; };
 		700B1CD42416C5BC00A82A74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70A5A0A5242350D100FE6178 /* speedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = speedViewController.swift; sourceTree = "<group>"; };
+		70F845BF2427E03600970B79 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70F845C02427E03600970B79 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +88,7 @@
 				700B1CC62416C5BC00A82A74 /* AcclormoterDisplayTests */,
 				700B1CD12416C5BC00A82A74 /* AcclormoterDisplayUITests */,
 				700B1CAE2416C5BA00A82A74 /* Products */,
+				70F845BE2427E03600970B79 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -129,6 +133,14 @@
 				700B1CD42416C5BC00A82A74 /* Info.plist */,
 			);
 			path = AcclormoterDisplayUITests;
+			sourceTree = "<group>";
+		};
+		70F845BE2427E03600970B79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70F845BF2427E03600970B79 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -7,14 +7,30 @@
 //
 
 import UIKit
+import MapKit
+import CoreMotion
+import CoreLocation
 
-class speedViewController: UIViewController {
-
+class speedViewController: UIViewController, CLLocationManagerDelegate {
+    @IBOutlet weak var speedDisplay: UITextField!
+    
+    let manager = CLLocationManager()
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        manager.delegate = self
+        manager.desiredAccuracy = kCLLocationAccuracyBest
+        manager.requestAlwaysAuthorization()
+        manager.stopUpdatingLocation()
 
-        // Do any additional setup after loading the view.
+
     }
+ func locationManager(manager: CLLocationManager, didUpdateLocations locations:[CLLocation]) {
+     let location = locations[0]
+    self.speedDisplay.text! = String(location.speed)
+    
+    }
+
     
 
     /*

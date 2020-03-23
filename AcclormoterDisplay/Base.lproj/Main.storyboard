@@ -156,6 +156,9 @@
                         <viewLayoutGuide key="safeArea" id="nRz-wZ-1iH"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Speed" id="Zop-Px-GHX"/>
+                    <connections>
+                        <outlet property="speedDisplay" destination="DEt-zB-cdp" id="l6w-Lt-7zT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oRL-Io-8Qt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
