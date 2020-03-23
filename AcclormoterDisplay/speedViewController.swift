@@ -10,37 +10,44 @@ import UIKit
 import MapKit
 import CoreMotion
 import CoreLocation
+import UserNotifications
 
 class speedViewController: UIViewController, CLLocationManagerDelegate {
     @IBOutlet weak var speedDisplay: UITextField!
-    
     let manager = CLLocationManager()
+    let notificationController = UNMutableNotificationContent()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         manager.delegate = self
         manager.desiredAccuracy = kCLLocationAccuracyBest
         manager.requestAlwaysAuthorization()
-        manager.stopUpdatingLocation()
-
-
+        manager.startUpdatingLocation()
+        
+        
+        
     }
- func locationManager(manager: CLLocationManager, didUpdateLocations locations:[CLLocation]) {
-     let location = locations[0]
-    self.speedDisplay.text! = String(location.speed)
-    
+    func locationManager(manager: CLLocationManager, didUpdateLocations locations:[CLLocation]) {
+        let location = locations[0]
+        self.speedDisplay.text! = String(location.speed)
+        if location.speed > 10{
+            notificationController.body = "slow down"
+        }
+        
+        
     }
-
     
-
+    
+    
     /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+     // MARK: - Navigation
+     
+     // In a storyboard-based application, you will often want to do a little preparation before navigation
+     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+     // Get the new view controller using segue.destination.
+     // Pass the selected object to the new view controller.
+     }
+     */
+    
 }
