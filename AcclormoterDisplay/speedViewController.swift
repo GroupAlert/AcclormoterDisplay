@@ -5,7 +5,7 @@
 //  Created by Mark Falcone on 3/19/20.
 //  Copyright © 2020 GroupAlert. All rights reserved.
 //
-
+// TODO create a noticaction class
 import UIKit
 import MapKit
 import CoreMotion
@@ -30,9 +30,10 @@ class speedViewController: UIViewController, CLLocationManagerDelegate {
     }
     func locationManager(manager: CLLocationManager, didUpdateLocations locations:[CLLocation]) {
         let location = locations[0]
+        var speed = location.speed
         self.speedDisplay.text! = String(location.speed)
-        if location.speed > 10{
-            notificationController.body = "slow down"
+        if speed > 10{
+            notificationController.body = "slow down you are going  \(speed)"
         }
         
         

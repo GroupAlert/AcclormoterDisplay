@@ -4,10 +4,11 @@
 //
 //  Created by Mark Falcone on 3/9/20.
 //  Copyright © 2020 GroupAlert. All rights reserved.
-//
+//this is a test comit
 
 import UIKit
 import CoreMotion
+import CoreLocation
 import UserNotifications
 
 class GyroViewController: UIViewController {
@@ -73,8 +74,6 @@ class GyroViewController: UIViewController {
                             print("large acclrition" )
                             // send notification
                             UNUserNotificationCenter.current().add(request, withCompletionHandler: nil)
-
-                            
                         }
                         
                         //self.stopDeviceMotionUpdates())
@@ -103,3 +102,4 @@ class GyroViewController: UIViewController {
         }
 
     }
+// test 
